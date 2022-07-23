@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
     {
         error[i] = pthread_create(&caja[i], NULL, atiende, &datos_compartidos);
         if(error[i] == 0){
-            error[i] = pthread_create(&consumidor, NULL, consume, &datos_compartidos);
+            
         }
     }
     clock_gettime(CLOCK_MONOTONIC, &tiempo_fin);
