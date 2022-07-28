@@ -4,9 +4,9 @@
 
 Ingresar a https://github.com/JeanS44/tarea3-sisoperativos, luego presionar el botón verde donde dice "Code" y seleccionar posteriormente "Download ZIP". Una vez descargado el archivo (Se rquiere de WinRAR para descomprimir), se debe apretar click derecho y "Extraer aquí". Posteriormente para ejecutar el programa se debe abrir la terminal e ingresar a la ruta en donde esta descomprimido el archivo, una vez en esta dirección se debe ejecutar los siguientes comandos:
 - gcc -o tarea3 tarea3.c -lpthread
-- ./tarea3.c
+- ./tarea3.c "tiempo minimo productor" "tiempo maximo productor" "tiempo minimo consumidor" "tiempo maximo consumidor"
 
-Editar esto!!!! al ejecutar los comandos el programa se iniciará y se le pedirá que ingrese tres datos, la cantidad de caballos a participar en la carrera(2 a 7), los metros de la pista de carrera(30, 40, 50 ó 60) y la cantidad de vueltas(1, 2, 3 ó 4), se va a redirigir de manera automática a los siguientes menús después de presionar algún numero dentro del rango correspondiente, se le mostrará por consola una simulación de la carrera en donde se podrá observar el avance de los caballos identificados por letras del abecedario y al final de esta simulación se le dara a conocer el resultado de la carrera mostrando el caballo ganador.
+Una vez ejecutado el comando, el tiempo introducido se asignara a ambas cajas a la vez que el resto de variables se asignaran aleatoriamente de la manera correspondiente. Una vez echo este proceso se empezara a mostrar en pantalla 2 cajas, cada una con su fila de clientes, cuantos productos tiene y capacidad maxima de productos de la caja, asi finalmente el programa imprimira en pantalla el estado del almacen de productos.
 
 ## Este programa fue realizado en 🛠️
 
